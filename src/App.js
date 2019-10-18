@@ -5,6 +5,8 @@ import Button from './Components/Button';
 import Time from './Time.js'
 import Countdown from './Countdown.js'
 import Tile from './Components/Tile'
+import TicTacToeContainer from './Components/TicTacToeContainer'
+import Board from './Components/Board'
 
 
 
@@ -19,19 +21,10 @@ function App() {
         <Button />
         <Time />
         <Countdown endDate={'December 6, 2019 17:00:00'} />
-        {/* <Countdown endDate={'October 17, 2019 20:11:00'}/> */}
-       <div style={{height: '40px'}}>
-       <Tile />Can you See This<Tile /><Tile />
-       </div>
-       <div style={{height: '40px'}}>
-       <Tile /><Tile /><Tile />
-       </div>
-       <div style={{height: '40px'}}>
-       <Tile /><Tile /><Tile />
-       </div>
-
-      
-
+        {/* <Countdown endDate={'October 18, 2019 09:50:00'}/> */}
+       <TicTacToeContainer />
+       <Board />
+       
       </React.Fragment>
 
 

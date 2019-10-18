@@ -6,15 +6,21 @@ import { NONAME } from 'dns';
 class Tile extends React.Component{
    
     render(){
-        return <div style={{
-            height: '40px',
-            width: '40px',
+        return <button style={{
+            height: '50px',
+            width: '50px',
             border: '1px solid black',
             display: 'inline-block',
-            margin: 0,
-        }}>
+            margin: 'auto',
+            }} 
+            type={{
+                button: 'onclick()',
+            }}
+            class={{
+                btn: 'btn-outline-danger',
+            }}>
 
-        </div>;
+        </button>;
     }
 }
 
