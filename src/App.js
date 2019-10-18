@@ -21,7 +21,7 @@ function App() {
         <Countdown endDate={'December 6, 2019 17:00:00'} />
         {/* <Countdown endDate={'October 17, 2019 20:11:00'}/> */}
        <div style={{height: '40px'}}>
-       <Tile /><Tile /><Tile />
+       <Tile />Can you See This<Tile /><Tile />
        </div>
        <div style={{height: '40px'}}>
        <Tile /><Tile /><Tile />
