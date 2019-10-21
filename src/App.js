@@ -7,6 +7,13 @@ import Countdown from './Countdown.js'
 import Tile from './Components/Tile'
 import TicTacToeContainer from './Components/TicTacToeContainer'
 import Board from './Components/Board'
+import Accordion from './Components/Accordion'
+import Carousel from './Components/Carousel'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 
 
 
@@ -20,10 +27,12 @@ function App() {
       <React.Fragment>
         <Button />
         <Time />
-        <Countdown endDate={'December 6, 2019 17:00:00'} />
+        {/* <Countdown endDate={'December 6, 2019 17:00:00'} /> */}
         {/* <Countdown endDate={'October 18, 2019 09:50:00'}/> */}
        <TicTacToeContainer />
        <Board />
+       <Carousel />
+      <Accordion />
        
       </React.Fragment>
 

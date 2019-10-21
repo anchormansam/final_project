@@ -17,10 +17,10 @@ class Board extends React.Component {
     render() {
         const row = [];
         let k = 0;
-        for (let i = 0; i < 12; i++) {
+        for (let i = 0; i < 3; i++) {
             const col = [];
-            for (let j = 0; j < 12; j++) {
-                col.push(this.renderSquare(12 * i + j));
+            for (let j = 0; j < 3; j++) {
+                col.push(this.renderSquare(3 * i + j));
                 k++;
             }
             row.push(<div key={k} className="board-row">{col}</div>);
