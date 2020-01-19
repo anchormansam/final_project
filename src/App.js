@@ -17,6 +17,7 @@ function App() {
         <Time />
         <Countdown endDate={'January 19, 2020 00:00:00'} />
         <TicTacToe />
+        <p>This is where the Calculator will go!</p>
       </React.Fragment>
     </div>
   );

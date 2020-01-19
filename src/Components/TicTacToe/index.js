@@ -32,12 +32,6 @@ function Square(props) {
       });
     }
 
-    resetGame(e) {
-      // alert("Game Reset!");
-      this.setState({ squares: Array(9).fill(null),
-      });
-      }
-  
     renderSquare(i) {
       return (
         <Square
@@ -74,7 +68,8 @@ function Square(props) {
             {this.renderSquare(7)}
             {this.renderSquare(8)}
           </div>
-          <button color="primary" onClick={this.resetGame} >Reset Game</button>
+          {/* <button color="primary" onClick={this.resetGame} >Reset Game</button> */}
+          <button onClick={() => window.location.reload(false)}>Click to reload!</button>
         </div>
       );
     }
