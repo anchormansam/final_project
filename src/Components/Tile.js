@@ -1,7 +1,4 @@
 import React from 'react';
-import { render } from "react-dom";
-import { blockStatement } from '@babel/types';
-import { NONAME } from 'dns';
 
 class Tile extends React.Component{
    

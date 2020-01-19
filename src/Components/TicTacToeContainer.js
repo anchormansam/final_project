@@ -1,10 +1,4 @@
 import React from 'react';
-import { render } from "react-dom";
-import { blockStatement } from '@babel/types';
-import { NONAME } from 'dns';
-import Tile from './Tile';
-
-
 
 class TicTacToeContainer extends React.Component {
 
