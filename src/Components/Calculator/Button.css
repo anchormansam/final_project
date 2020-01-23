@@ -1,0 +1,18 @@
+.ButtonDiv {
+    display: flex;
+    height: 4em;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    outline: 1px solid black;
+    color: aqua;
+    background-color: rgb(241, 109, 14);
+}
+
+.operator{
+    background-color: black;
+    color: white;
+    outline: 1px solid red;
+}
