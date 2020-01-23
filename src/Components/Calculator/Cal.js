@@ -6,15 +6,32 @@ import Input from "../Calculator/Button";
 import ClearBtn from "../Calculator/Button";
 
 class Cal extends React.Component {
+    constructor(props){
+        super(props);
+
+        this.state={
+            input: "",
+            previousNumber: "",
+            currentNumber: "",
+            operator: "",
+        }
+    }
+    addToInput = val => {
+        this.setState({
+            input: this.state.input + val
+        });
+    }
   render() {
     return (
       <div className="Calculator">
         <div className="CalWrapper">
             <div className="row">
-                <Input></Input>
+                <Input>
+                    {this.state.input}
+                </Input>
             </div>
           <div className="row">
-            <Button>7</Button>
+            <Button handleClick={this.addToInput}>7</Button>
             <Button>8</Button>
             <Button>9</Button>
             <Button>/</Button>
