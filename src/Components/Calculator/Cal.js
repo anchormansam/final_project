@@ -67,26 +67,26 @@ class Cal extends React.Component {
     if ((this.state.operator == "plus")) {
       this.setState({
         input:
-          parseInt(this.state.previousNumber) +
-          parseInt(this.state.currentNumber)
+          parseFloat(this.state.previousNumber) +
+          parseFloat(this.state.currentNumber)
       });
     }else if ((this.state.operator == "subtract")) {
       this.setState({
         input:
-          parseInt(this.state.previousNumber) -
-          parseInt(this.state.currentNumber)
+          parseFloat(this.state.previousNumber) -
+          parseFloat(this.state.currentNumber)
       });
     }else if ((this.state.operator == "divide")) {
       this.setState({
         input:
-          parseInt(this.state.previousNumber) /
-          parseInt(this.state.currentNumber)
+          parseFloat(this.state.previousNumber) /
+          parseFloat(this.state.currentNumber)
       });
     }else if ((this.state.operator == "mulitply")) {
       this.setState({
         input:
-          parseInt(this.state.previousNumber) *
-          parseInt(this.state.currentNumber)
+          parseFloat(this.state.previousNumber) *
+          parseFloat(this.state.currentNumber)
       });
     
   };
