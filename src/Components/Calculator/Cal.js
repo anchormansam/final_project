@@ -39,11 +39,11 @@ class Cal extends React.Component {
     this.setState({ input: "" });
     this.state.operator = "plus";
   };
-  letsSubtract = val => {
-    this.state.previousNumber = this.state.input;
-    this.setState({ input: "" });
-    this.state.operator = "subtract";
-  };
+//   letsSubtract = val => {
+//     this.state.previousNumber = this.state.input;
+//     this.setState({ input: "" });
+//     this.state.operator = "subtract";
+//   };
   letsSubtract = val => {
     this.state.previousNumber = this.state.input;
     this.setState({ input: "" });
@@ -123,7 +123,7 @@ class Cal extends React.Component {
             <Button handleClick={this.letsSubtract}>-</Button>
           </div>
           <div className="row">
-            <ClearBtn handleClear={this.clearInput}>Clear</ClearBtn>
+            <ClearBtn handleClick={this.clearInput}>Clear</ClearBtn>
           </div>
         </div>
       </div>

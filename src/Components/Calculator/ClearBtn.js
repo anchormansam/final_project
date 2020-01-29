@@ -6,7 +6,7 @@ class ClearBtn extends React.Component {
     return( 
       <div 
         className="clear-btn"
-        onClick={() => this.props.handleClear()}
+        onClick={() => this.props.handleClick()}
       >
         {this.props.children}
       </div>
