@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import TicTacToe from './Components/TicTacToe/index';
 import Cal from './Components/Calculator/Cal'
+import Tasks from './Components/TodoList/Tasks'
 
 
 
@@ -16,9 +17,10 @@ function App() {
     <div className="App">
       <React.Fragment>
         <Time />
-        <Countdown endDate={'January 29, 2020 00:00:00'} />
+        <Countdown endDate={'April 7, 2020 00:00:00'} />
         <TicTacToe />
         <Cal />
+        <Tasks />
       </React.Fragment>
     </div>
   );

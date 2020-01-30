@@ -53,7 +53,7 @@ class Countdown extends Component {
         return null
       }
       if(this.state.timeView.t <= 0){
-        return <p>Happy New Year!</p>
+        return <p>Happy Birthday!</p>
       }
     var { days, hours, minutes, seconds } = this.state.timeView;
     var timeString = `${days}Days ${hours}Hours : ${minutes}Min : ${seconds}Sec`
