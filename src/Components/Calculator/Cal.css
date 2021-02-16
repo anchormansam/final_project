@@ -1,0 +1,17 @@
+.Calculator{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height:100vw;
+    width: 100%;
+
+}
+.CalWrapper{
+    width: 1400px;
+    height: 600px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}

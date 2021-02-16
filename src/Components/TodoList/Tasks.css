@@ -1,0 +1,10 @@
+body{
+    max-width: 600px;
+    padding:42px;
+    margin: auto;
+}
+.task{
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin: 20px;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { render } from "react-dom";
+
 
 class Countdown extends Component {
   constructor(props) {
@@ -53,11 +53,10 @@ class Countdown extends Component {
         return null
       }
       if(this.state.timeView.t <= 0){
-        return <p>LOOKS LIKE YOU MADE IT!</p>
+        return <p>Happy Birthday!</p>
       }
     var { days, hours, minutes, seconds } = this.state.timeView;
     var timeString = `${days}Days ${hours}Hours : ${minutes}Min : ${seconds}Sec`
-    console.log(this.getTimeRemaining())
     return (<p>{timeString}</p>)
   }
 }
